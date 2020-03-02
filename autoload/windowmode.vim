@@ -74,6 +74,6 @@
 
     " Draw the prompt
     function! s:windowmode_prompt(mode, ...)
-        redraw | echo '[' . g:_windowmode_prefix . ']> ' . a:mode
+        redraw | echo '[' . g:windowmode_prefix . ']> ' . a:mode
     endfunction
 
