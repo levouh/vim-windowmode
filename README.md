@@ -2,7 +2,6 @@
 
 _Sub-mode emulation for operating on different windows._
 
-
 ### Support
 
 _I have only tested this plugin with the following:_  
