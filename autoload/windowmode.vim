@@ -34,6 +34,7 @@
         let g:_windowmode_yank = winnr()
 
         redraw | echo 'Yanked window ' . g:_windowmode_yank
+        sleep 500m
     endfunction
 
     " Paste the marked window
