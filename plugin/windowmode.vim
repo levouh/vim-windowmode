@@ -1,4 +1,4 @@
-" --- Verification
+" Verification {{{1
 
     if exists('g:_loaded_windowmode') || v:version < 802
         finish
@@ -6,7 +6,7 @@
 
     let g:_loaded_windowmode = 1
 
-" --- Options
+" Options {{{1
 
     if !exists('g:windowmode_map')
         let g:windowmode_map = {
@@ -34,12 +34,12 @@
                              \ }
     endif
 
-    let g:windowmode_prefix = 'W'
+    let g:windowmode_prefix = 'WINDOW'
 
-" --- Variables
+" Variables {{{1
 
     let g:_windowmode_exit = 0
 
-" --- Commands
+" Commands {{{1
 
     command! WMInteract call windowmode#interact()
